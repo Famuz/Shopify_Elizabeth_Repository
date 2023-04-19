@@ -4,7 +4,6 @@
     {% endif %}
     
     {% form 'contact' %}
-
         {% if form.errors %}
             <div class="border p-5">
                 <div class="flex flex-row items-center w-full my-3">
@@ -62,18 +61,18 @@
 
 {% schema %}
 {
-    "name": "Contact Form",
-    "settings": [
-        {
-            "type": "text",
-            "id": "title",
-            "label": "Title"
-        }
-    ],
-    "presets": [
-        {
-            "name": "Contact Form"
-        }
-    ]
+  "name": "Contact Form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact Form"
+    }
+  ]
 }
 {% endschema %}
