@@ -1,9 +1,23 @@
 {
-  "name": "Template 404",
   "sections": {
     "template": {
-      "type": "template-404"
+      "type": "template-404",
+      "settings": {
+        "title": "404",
+        "subtext_title": "The Page that you're looking for is not found",
+        "button_label": "Back to homepage",
+        "button_url": ""
+      }
+    },
+    "849c3885-e1c4-4f49-8d90-bd8d317ed345": {
+      "type": "contact-form",
+      "settings": {
+        "title": ""
+      }
     }
   },
-  "order": ["template"]
+  "order": [
+    "template",
+    "849c3885-e1c4-4f49-8d90-bd8d317ed345"
+  ]
 }
